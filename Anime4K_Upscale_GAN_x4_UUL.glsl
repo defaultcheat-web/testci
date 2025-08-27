@@ -28,7 +28,7 @@
 //!WIDTH MAIN.w
 //!HEIGHT MAIN.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (MAIN_texOff(vec2(x_off, y_off)))
 vec4 hook() {
     vec4 result = mat4(0.3533503, -0.22744901, -0.09641403, 0.049930546, 0.21601382, 0.121875964, -0.4066155, -0.029510869, -0.15896404, -0.26784295, 0.12444282, -0.091934755, 0.0, 0.0, 0.0, 0.0) * go_0(-1.0, -1.0);
@@ -50,7 +50,7 @@ vec4 hook() {
 //!WIDTH MAIN.w
 //!HEIGHT MAIN.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (MAIN_texOff(vec2(x_off, y_off)))
 vec4 hook() {
     vec4 result = mat4(0.14643213, 0.34573826, 0.022253275, 0.093370445, 0.12842871, 0.05782831, -0.29587168, 0.105391145, -0.009612344, -0.48199305, 0.10708218, -0.06391322, 0.0, 0.0, 0.0, 0.0) * go_0(-1.0, -1.0);
@@ -72,7 +72,7 @@ vec4 hook() {
 //!WIDTH MAIN.w
 //!HEIGHT MAIN.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (MAIN_texOff(vec2(x_off, y_off)))
 vec4 hook() {
     vec4 result = mat4(-0.26204622, 0.4223293, -0.08510012, 0.019453628, -0.017182587, 0.40875512, -0.3000382, 0.2466832, 0.18032596, -0.13804369, 0.23681472, -0.5184114, 0.0, 0.0, 0.0, 0.0) * go_0(-1.0, -1.0);
@@ -94,7 +94,7 @@ vec4 hook() {
 //!WIDTH MAIN.w
 //!HEIGHT MAIN.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (MAIN_texOff(vec2(x_off, y_off)))
 vec4 hook() {
     vec4 result = mat4(-0.32331285, -0.030736726, 0.0042050784, 0.010926396, -0.23282023, -0.08763307, 0.37141582, 0.19859134, -0.1666083, -0.04315098, 0.07296003, 0.2861034, 0.0, 0.0, 0.0, 0.0) * go_0(-1.0, -1.0);
@@ -116,7 +116,7 @@ vec4 hook() {
 //!WIDTH MAIN.w
 //!HEIGHT MAIN.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (MAIN_texOff(vec2(x_off, y_off)))
 vec4 hook() {
     vec4 result = mat4(-0.06263417, -0.015899068, -0.06673424, -0.29330692, 0.27661222, 0.21981683, 0.009470586, 0.09138456, 0.44470203, 0.1370112, 0.25888672, -0.26252735, 0.0, 0.0, 0.0, 0.0) * go_0(-1.0, -1.0);
@@ -138,7 +138,7 @@ vec4 hook() {
 //!WIDTH MAIN.w
 //!HEIGHT MAIN.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (MAIN_texOff(vec2(x_off, y_off)))
 vec4 hook() {
     vec4 result = mat4(0.1363371, -0.15540521, -0.31718272, 0.016195117, -0.11684813, 0.035514772, 0.036139056, -0.07166461, 0.18743914, 0.2597766, 0.40419564, 0.18188365, 0.0, 0.0, 0.0, 0.0) * go_0(-1.0, -1.0);
@@ -165,7 +165,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -302,7 +302,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -441,7 +441,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_tf_tex(conv2d_tf_pos)), 0.0))
 #define g_1 (max((conv2d_tf1_tex(conv2d_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_tf2_tex(conv2d_tf2_pos)), 0.0))
@@ -492,7 +492,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_tf_tex(conv2d_tf_pos)), 0.0))
 #define g_1 (max((conv2d_tf1_tex(conv2d_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_tf2_tex(conv2d_tf2_pos)), 0.0))
@@ -543,7 +543,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_tf_tex(conv2d_tf_pos)), 0.0))
 #define g_1 (max((conv2d_tf1_tex(conv2d_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_tf2_tex(conv2d_tf2_pos)), 0.0))
@@ -594,7 +594,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_tf_tex(conv2d_tf_pos)), 0.0))
 #define g_1 (max((conv2d_tf1_tex(conv2d_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_tf2_tex(conv2d_tf2_pos)), 0.0))
@@ -645,7 +645,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_tf_tex(conv2d_tf_pos)), 0.0))
 #define g_1 (max((conv2d_tf1_tex(conv2d_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_tf2_tex(conv2d_tf2_pos)), 0.0))
@@ -696,7 +696,7 @@ vec4 hook() {
 //!WIDTH conv2d_tf.w
 //!HEIGHT conv2d_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_tf_tex(conv2d_tf_pos)), 0.0))
 #define g_1 (max((conv2d_tf1_tex(conv2d_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_tf2_tex(conv2d_tf2_pos)), 0.0))
@@ -745,7 +745,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_3_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_3_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_3_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -882,7 +882,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_3_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_3_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_3_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -1022,7 +1022,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_3_tf_tex(conv2d_3_tf_pos)), 0.0))
 #define g_1 (max((conv2d_3_tf1_tex(conv2d_3_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_3_tf2_tex(conv2d_3_tf2_pos)), 0.0))
@@ -1078,7 +1078,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_3_tf_tex(conv2d_3_tf_pos)), 0.0))
 #define g_1 (max((conv2d_3_tf1_tex(conv2d_3_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_3_tf2_tex(conv2d_3_tf2_pos)), 0.0))
@@ -1134,7 +1134,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_3_tf_tex(conv2d_3_tf_pos)), 0.0))
 #define g_1 (max((conv2d_3_tf1_tex(conv2d_3_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_3_tf2_tex(conv2d_3_tf2_pos)), 0.0))
@@ -1190,7 +1190,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_3_tf_tex(conv2d_3_tf_pos)), 0.0))
 #define g_1 (max((conv2d_3_tf1_tex(conv2d_3_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_3_tf2_tex(conv2d_3_tf2_pos)), 0.0))
@@ -1246,7 +1246,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_3_tf_tex(conv2d_3_tf_pos)), 0.0))
 #define g_1 (max((conv2d_3_tf1_tex(conv2d_3_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_3_tf2_tex(conv2d_3_tf2_pos)), 0.0))
@@ -1302,7 +1302,7 @@ vec4 hook() {
 //!WIDTH conv2d_3_tf.w
 //!HEIGHT conv2d_3_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_3_tf_tex(conv2d_3_tf_pos)), 0.0))
 #define g_1 (max((conv2d_3_tf1_tex(conv2d_3_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_3_tf2_tex(conv2d_3_tf2_pos)), 0.0))
@@ -1355,7 +1355,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_6_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_6_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_6_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -1492,7 +1492,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_6_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_6_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_6_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -1633,7 +1633,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_6_tf_tex(conv2d_6_tf_pos)), 0.0))
 #define g_1 (max((conv2d_6_tf1_tex(conv2d_6_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_6_tf2_tex(conv2d_6_tf2_pos)), 0.0))
@@ -1694,7 +1694,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_6_tf_tex(conv2d_6_tf_pos)), 0.0))
 #define g_1 (max((conv2d_6_tf1_tex(conv2d_6_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_6_tf2_tex(conv2d_6_tf2_pos)), 0.0))
@@ -1755,7 +1755,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_6_tf_tex(conv2d_6_tf_pos)), 0.0))
 #define g_1 (max((conv2d_6_tf1_tex(conv2d_6_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_6_tf2_tex(conv2d_6_tf2_pos)), 0.0))
@@ -1816,7 +1816,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_6_tf_tex(conv2d_6_tf_pos)), 0.0))
 #define g_1 (max((conv2d_6_tf1_tex(conv2d_6_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_6_tf2_tex(conv2d_6_tf2_pos)), 0.0))
@@ -1877,7 +1877,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_6_tf_tex(conv2d_6_tf_pos)), 0.0))
 #define g_1 (max((conv2d_6_tf1_tex(conv2d_6_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_6_tf2_tex(conv2d_6_tf2_pos)), 0.0))
@@ -1938,7 +1938,7 @@ vec4 hook() {
 //!WIDTH conv2d_6_tf.w
 //!HEIGHT conv2d_6_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_6_tf_tex(conv2d_6_tf_pos)), 0.0))
 #define g_1 (max((conv2d_6_tf1_tex(conv2d_6_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_6_tf2_tex(conv2d_6_tf2_pos)), 0.0))
@@ -1995,7 +1995,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_9_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_9_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_9_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -2132,7 +2132,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_9_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_9_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_9_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -2274,7 +2274,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_9_tf_tex(conv2d_9_tf_pos)), 0.0))
 #define g_1 (max((conv2d_9_tf1_tex(conv2d_9_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_9_tf2_tex(conv2d_9_tf2_pos)), 0.0))
@@ -2340,7 +2340,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_9_tf_tex(conv2d_9_tf_pos)), 0.0))
 #define g_1 (max((conv2d_9_tf1_tex(conv2d_9_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_9_tf2_tex(conv2d_9_tf2_pos)), 0.0))
@@ -2406,7 +2406,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_9_tf_tex(conv2d_9_tf_pos)), 0.0))
 #define g_1 (max((conv2d_9_tf1_tex(conv2d_9_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_9_tf2_tex(conv2d_9_tf2_pos)), 0.0))
@@ -2472,7 +2472,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_9_tf_tex(conv2d_9_tf_pos)), 0.0))
 #define g_1 (max((conv2d_9_tf1_tex(conv2d_9_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_9_tf2_tex(conv2d_9_tf2_pos)), 0.0))
@@ -2538,7 +2538,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_9_tf_tex(conv2d_9_tf_pos)), 0.0))
 #define g_1 (max((conv2d_9_tf1_tex(conv2d_9_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_9_tf2_tex(conv2d_9_tf2_pos)), 0.0))
@@ -2604,7 +2604,7 @@ vec4 hook() {
 //!WIDTH conv2d_9_tf.w
 //!HEIGHT conv2d_9_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_9_tf_tex(conv2d_9_tf_pos)), 0.0))
 #define g_1 (max((conv2d_9_tf1_tex(conv2d_9_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_9_tf2_tex(conv2d_9_tf2_pos)), 0.0))
@@ -2665,7 +2665,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_12_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_12_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_12_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -2802,7 +2802,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_12_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_12_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_12_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -2945,7 +2945,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_12_tf_tex(conv2d_12_tf_pos)), 0.0))
 #define g_1 (max((conv2d_12_tf1_tex(conv2d_12_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_12_tf2_tex(conv2d_12_tf2_pos)), 0.0))
@@ -3016,7 +3016,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_12_tf_tex(conv2d_12_tf_pos)), 0.0))
 #define g_1 (max((conv2d_12_tf1_tex(conv2d_12_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_12_tf2_tex(conv2d_12_tf2_pos)), 0.0))
@@ -3087,7 +3087,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_12_tf_tex(conv2d_12_tf_pos)), 0.0))
 #define g_1 (max((conv2d_12_tf1_tex(conv2d_12_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_12_tf2_tex(conv2d_12_tf2_pos)), 0.0))
@@ -3158,7 +3158,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_12_tf_tex(conv2d_12_tf_pos)), 0.0))
 #define g_1 (max((conv2d_12_tf1_tex(conv2d_12_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_12_tf2_tex(conv2d_12_tf2_pos)), 0.0))
@@ -3229,7 +3229,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_12_tf_tex(conv2d_12_tf_pos)), 0.0))
 #define g_1 (max((conv2d_12_tf1_tex(conv2d_12_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_12_tf2_tex(conv2d_12_tf2_pos)), 0.0))
@@ -3300,7 +3300,7 @@ vec4 hook() {
 //!WIDTH conv2d_12_tf.w
 //!HEIGHT conv2d_12_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_12_tf_tex(conv2d_12_tf_pos)), 0.0))
 #define g_1 (max((conv2d_12_tf1_tex(conv2d_12_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_12_tf2_tex(conv2d_12_tf2_pos)), 0.0))
@@ -3365,7 +3365,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_15_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_15_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_15_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -3502,7 +3502,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_15_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_15_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_15_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -3646,7 +3646,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_15_tf_tex(conv2d_15_tf_pos)), 0.0))
 #define g_1 (max((conv2d_15_tf1_tex(conv2d_15_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_15_tf2_tex(conv2d_15_tf2_pos)), 0.0))
@@ -3722,7 +3722,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_15_tf_tex(conv2d_15_tf_pos)), 0.0))
 #define g_1 (max((conv2d_15_tf1_tex(conv2d_15_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_15_tf2_tex(conv2d_15_tf2_pos)), 0.0))
@@ -3798,7 +3798,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_15_tf_tex(conv2d_15_tf_pos)), 0.0))
 #define g_1 (max((conv2d_15_tf1_tex(conv2d_15_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_15_tf2_tex(conv2d_15_tf2_pos)), 0.0))
@@ -3874,7 +3874,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_15_tf_tex(conv2d_15_tf_pos)), 0.0))
 #define g_1 (max((conv2d_15_tf1_tex(conv2d_15_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_15_tf2_tex(conv2d_15_tf2_pos)), 0.0))
@@ -3950,7 +3950,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_15_tf_tex(conv2d_15_tf_pos)), 0.0))
 #define g_1 (max((conv2d_15_tf1_tex(conv2d_15_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_15_tf2_tex(conv2d_15_tf2_pos)), 0.0))
@@ -4026,7 +4026,7 @@ vec4 hook() {
 //!WIDTH conv2d_15_tf.w
 //!HEIGHT conv2d_15_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_15_tf_tex(conv2d_15_tf_pos)), 0.0))
 #define g_1 (max((conv2d_15_tf1_tex(conv2d_15_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_15_tf2_tex(conv2d_15_tf2_pos)), 0.0))
@@ -4095,7 +4095,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_18_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_18_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_18_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -4232,7 +4232,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_18_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_18_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_18_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -4377,7 +4377,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_18_tf_tex(conv2d_18_tf_pos)), 0.0))
 #define g_1 (max((conv2d_18_tf1_tex(conv2d_18_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_18_tf2_tex(conv2d_18_tf2_pos)), 0.0))
@@ -4458,7 +4458,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_18_tf_tex(conv2d_18_tf_pos)), 0.0))
 #define g_1 (max((conv2d_18_tf1_tex(conv2d_18_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_18_tf2_tex(conv2d_18_tf2_pos)), 0.0))
@@ -4539,7 +4539,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_18_tf_tex(conv2d_18_tf_pos)), 0.0))
 #define g_1 (max((conv2d_18_tf1_tex(conv2d_18_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_18_tf2_tex(conv2d_18_tf2_pos)), 0.0))
@@ -4620,7 +4620,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_18_tf_tex(conv2d_18_tf_pos)), 0.0))
 #define g_1 (max((conv2d_18_tf1_tex(conv2d_18_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_18_tf2_tex(conv2d_18_tf2_pos)), 0.0))
@@ -4701,7 +4701,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_18_tf_tex(conv2d_18_tf_pos)), 0.0))
 #define g_1 (max((conv2d_18_tf1_tex(conv2d_18_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_18_tf2_tex(conv2d_18_tf2_pos)), 0.0))
@@ -4782,7 +4782,7 @@ vec4 hook() {
 //!WIDTH conv2d_18_tf.w
 //!HEIGHT conv2d_18_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_18_tf_tex(conv2d_18_tf_pos)), 0.0))
 #define g_1 (max((conv2d_18_tf1_tex(conv2d_18_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_18_tf2_tex(conv2d_18_tf2_pos)), 0.0))
@@ -4855,7 +4855,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_21_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_21_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_21_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -4992,7 +4992,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_21_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_21_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_21_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -5138,7 +5138,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_21_tf_tex(conv2d_21_tf_pos)), 0.0))
 #define g_1 (max((conv2d_21_tf1_tex(conv2d_21_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_21_tf2_tex(conv2d_21_tf2_pos)), 0.0))
@@ -5224,7 +5224,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_21_tf_tex(conv2d_21_tf_pos)), 0.0))
 #define g_1 (max((conv2d_21_tf1_tex(conv2d_21_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_21_tf2_tex(conv2d_21_tf2_pos)), 0.0))
@@ -5310,7 +5310,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_21_tf_tex(conv2d_21_tf_pos)), 0.0))
 #define g_1 (max((conv2d_21_tf1_tex(conv2d_21_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_21_tf2_tex(conv2d_21_tf2_pos)), 0.0))
@@ -5396,7 +5396,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_21_tf_tex(conv2d_21_tf_pos)), 0.0))
 #define g_1 (max((conv2d_21_tf1_tex(conv2d_21_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_21_tf2_tex(conv2d_21_tf2_pos)), 0.0))
@@ -5482,7 +5482,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_21_tf_tex(conv2d_21_tf_pos)), 0.0))
 #define g_1 (max((conv2d_21_tf1_tex(conv2d_21_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_21_tf2_tex(conv2d_21_tf2_pos)), 0.0))
@@ -5568,7 +5568,7 @@ vec4 hook() {
 //!WIDTH conv2d_21_tf.w
 //!HEIGHT conv2d_21_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_21_tf_tex(conv2d_21_tf_pos)), 0.0))
 #define g_1 (max((conv2d_21_tf1_tex(conv2d_21_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_21_tf2_tex(conv2d_21_tf2_pos)), 0.0))
@@ -5645,7 +5645,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv2d_24_tf_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv2d_24_tf1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv2d_24_tf2_texOff(vec2(x_off, y_off))), 0.0))
@@ -5792,7 +5792,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_24_tf_tex(conv2d_24_tf_pos)), 0.0))
 #define g_1 (max((conv2d_24_tf1_tex(conv2d_24_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_24_tf2_tex(conv2d_24_tf2_pos)), 0.0))
@@ -5883,7 +5883,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_24_tf_tex(conv2d_24_tf_pos)), 0.0))
 #define g_1 (max((conv2d_24_tf1_tex(conv2d_24_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_24_tf2_tex(conv2d_24_tf2_pos)), 0.0))
@@ -5974,7 +5974,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_24_tf_tex(conv2d_24_tf_pos)), 0.0))
 #define g_1 (max((conv2d_24_tf1_tex(conv2d_24_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_24_tf2_tex(conv2d_24_tf2_pos)), 0.0))
@@ -6065,7 +6065,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_24_tf_tex(conv2d_24_tf_pos)), 0.0))
 #define g_1 (max((conv2d_24_tf1_tex(conv2d_24_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_24_tf2_tex(conv2d_24_tf2_pos)), 0.0))
@@ -6156,7 +6156,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_24_tf_tex(conv2d_24_tf_pos)), 0.0))
 #define g_1 (max((conv2d_24_tf1_tex(conv2d_24_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_24_tf2_tex(conv2d_24_tf2_pos)), 0.0))
@@ -6247,7 +6247,7 @@ vec4 hook() {
 //!WIDTH conv2d_24_tf.w
 //!HEIGHT conv2d_24_tf.h
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define g_0 (max((conv2d_24_tf_tex(conv2d_24_tf_pos)), 0.0))
 #define g_1 (max((conv2d_24_tf1_tex(conv2d_24_tf1_pos)), 0.0))
 #define g_2 (max((conv2d_24_tf2_tex(conv2d_24_tf2_pos)), 0.0))
@@ -6328,7 +6328,7 @@ vec4 hook() {
 //!WIDTH conv0ups.w 4 *
 //!HEIGHT conv0ups.h 4 *
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv0ups_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_1(x_off, y_off) (max((conv0ups1_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_2(x_off, y_off) (max((conv0ups2_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
@@ -6465,7 +6465,7 @@ vec4 hook() {
 //!WIDTH conv0ups.w 4 *
 //!HEIGHT conv0ups.h 4 *
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv0ups_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_1(x_off, y_off) (max((conv0ups1_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_2(x_off, y_off) (max((conv0ups2_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
@@ -6602,7 +6602,7 @@ vec4 hook() {
 //!WIDTH conv0ups.w 4 *
 //!HEIGHT conv0ups.h 4 *
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv0ups_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_1(x_off, y_off) (max((conv0ups1_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_2(x_off, y_off) (max((conv0ups2_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
@@ -6739,7 +6739,7 @@ vec4 hook() {
 //!WIDTH conv0ups.w 4 *
 //!HEIGHT conv0ups.h 4 *
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv0ups_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_1(x_off, y_off) (max((conv0ups1_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_2(x_off, y_off) (max((conv0ups2_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
@@ -6876,7 +6876,7 @@ vec4 hook() {
 //!WIDTH conv0ups.w 4 *
 //!HEIGHT conv0ups.h 4 *
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv0ups_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_1(x_off, y_off) (max((conv0ups1_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_2(x_off, y_off) (max((conv0ups2_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
@@ -7013,7 +7013,7 @@ vec4 hook() {
 //!WIDTH conv0ups.w 4 *
 //!HEIGHT conv0ups.h 4 *
 //!COMPONENTS 4
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv0ups_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_1(x_off, y_off) (max((conv0ups1_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
 #define go_2(x_off, y_off) (max((conv0ups2_texOff(vec2(x_off, y_off) * 0.5)), 0.0))
@@ -7150,7 +7150,7 @@ vec4 hook() {
 //!SAVE MAIN
 //!WIDTH conv1ups.w
 //!HEIGHT conv1ups.h
-//!WHEN OUTPUT.w MAIN.w / 1.200 > OUTPUT.h MAIN.h / 1.200 > *
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
 #define go_0(x_off, y_off) (max((conv1ups_texOff(vec2(x_off, y_off))), 0.0))
 #define go_1(x_off, y_off) (max((conv1ups1_texOff(vec2(x_off, y_off))), 0.0))
 #define go_2(x_off, y_off) (max((conv1ups2_texOff(vec2(x_off, y_off))), 0.0))
@@ -7274,4 +7274,76 @@ vec4 hook() {
     result += mat4(0.01612927, -0.002833585, -0.0181422, 0.0, -0.007557753, -0.0033626833, -0.026714409, 0.0, -0.15844722, -0.20818855, -0.2195031, 0.0, 0.06423856, 0.08534526, -0.25243443, 0.0) * go_11(1.0, 1.0);
     result += vec4(0.0016457731, -8.084377e-05, 0.00035153233, 0.0);
     return result + MAIN_tex(MAIN_pos);
+}
+//!DESC UltraSharp-5x5-Limited (high-cost, high-clarity)
+//!HOOK MAIN
+//!BIND MAIN
+//!SAVE MAIN
+//!WIDTH MAIN.w
+//!HEIGHT MAIN.h
+//!COMPONENTS 4
+//!WHEN OUTPUT.w MAIN.w > OUTPUT.h MAIN.h > *
+vec4 hook() {
+    const vec3 lumaCoeff = vec3(0.2126, 0.7152, 0.0722);
+
+    vec4 center = MAIN_tex(MAIN_pos);
+    vec3 c = center.rgb;
+    float yc = dot(c, lumaCoeff);
+
+    // 5x5 Gaussian blur (separable [1 4 6 4 1], 2D normalized by 256)
+    float yb = 0.0;
+    yb += 1.0  * dot(MAIN_texOff(vec2(-2.0, -2.0)).rgb, lumaCoeff);
+    yb += 4.0  * dot(MAIN_texOff(vec2(-2.0, -1.0)).rgb, lumaCoeff);
+    yb += 6.0  * dot(MAIN_texOff(vec2(-2.0,  0.0)).rgb, lumaCoeff);
+    yb += 4.0  * dot(MAIN_texOff(vec2(-2.0,  1.0)).rgb, lumaCoeff);
+    yb += 1.0  * dot(MAIN_texOff(vec2(-2.0,  2.0)).rgb, lumaCoeff);
+
+    yb += 4.0  * dot(MAIN_texOff(vec2(-1.0, -2.0)).rgb, lumaCoeff);
+    yb += 16.0 * dot(MAIN_texOff(vec2(-1.0, -1.0)).rgb, lumaCoeff);
+    yb += 24.0 * dot(MAIN_texOff(vec2(-1.0,  0.0)).rgb, lumaCoeff);
+    yb += 16.0 * dot(MAIN_texOff(vec2(-1.0,  1.0)).rgb, lumaCoeff);
+    yb += 4.0  * dot(MAIN_texOff(vec2(-1.0,  2.0)).rgb, lumaCoeff);
+
+    yb += 6.0  * dot(MAIN_texOff(vec2( 0.0, -2.0)).rgb, lumaCoeff);
+    yb += 24.0 * dot(MAIN_texOff(vec2( 0.0, -1.0)).rgb, lumaCoeff);
+    yb += 36.0 * dot(MAIN_texOff(vec2( 0.0,  0.0)).rgb, lumaCoeff);
+    yb += 24.0 * dot(MAIN_texOff(vec2( 0.0,  1.0)).rgb, lumaCoeff);
+    yb += 6.0  * dot(MAIN_texOff(vec2( 0.0,  2.0)).rgb, lumaCoeff);
+
+    yb += 4.0  * dot(MAIN_texOff(vec2( 1.0, -2.0)).rgb, lumaCoeff);
+    yb += 16.0 * dot(MAIN_texOff(vec2( 1.0, -1.0)).rgb, lumaCoeff);
+    yb += 24.0 * dot(MAIN_texOff(vec2( 1.0,  0.0)).rgb, lumaCoeff);
+    yb += 16.0 * dot(MAIN_texOff(vec2( 1.0,  1.0)).rgb, lumaCoeff);
+    yb += 4.0  * dot(MAIN_texOff(vec2( 1.0,  2.0)).rgb, lumaCoeff);
+
+    yb += 1.0  * dot(MAIN_texOff(vec2( 2.0, -2.0)).rgb, lumaCoeff);
+    yb += 4.0  * dot(MAIN_texOff(vec2( 2.0, -1.0)).rgb, lumaCoeff);
+    yb += 6.0  * dot(MAIN_texOff(vec2( 2.0,  0.0)).rgb, lumaCoeff);
+    yb += 4.0  * dot(MAIN_texOff(vec2( 2.0,  1.0)).rgb, lumaCoeff);
+    yb += 1.0  * dot(MAIN_texOff(vec2( 2.0,  2.0)).rgb, lumaCoeff);
+    yb *= (1.0 / 256.0);
+
+    // Local 3x3 extrema for limited sharpen to avoid halos/overshoot
+    float yminv =  1e9;
+    float ymaxv = -1e9;
+    for (int j = -1; j <= 1; ++j) {
+        for (int i = -1; i <= 1; ++i) {
+            float y = dot(MAIN_texOff(vec2(float(i), float(j))).rgb, lumaCoeff);
+            yminv = min(yminv, y);
+            ymaxv = max(ymaxv, y);
+        }
+    }
+
+    float detail = yc - yb;
+    // strength and limiter tuned for clarity with controlled ringing
+    const float strength = 0.85;
+    const float limiter  = 0.60;
+    float upLimit   = (ymaxv - yc) * limiter;
+    float downLimit = (yc - yminv) * limiter;
+    float limited   = clamp(detail, -downLimit, upLimit);
+    float yout      = yc + strength * limited;
+    float boost     = yout - yc;
+
+    vec3 outRgb = clamp(c + vec3(boost), 0.0, 1.0);
+    return vec4(outRgb, center.a);
 }
